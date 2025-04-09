@@ -1,0 +1,79 @@
+<%- include('./includes/head.ejs') %>
+  <%- include('./includes/nav.ejs') %>
+    <%- include('./includes/title.ejs') %>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col-lg-6">
+            <h3><img src="/img/education.png" alt="" width="30em">Education</h3>
+            <% for( item of qualifications[0] ) { %>
+              <p>
+                <%= item.degree %> | <%= item.college %> | <%= item.year %>
+              </p>
+              <% } %>
+          </div>
+          <div class="col-lg-6">
+            <h3><img src="/img/certificates.png" alt="" width="30em">Certificates</h3>
+
+            <% for( item of qualifications[1] ) { %>
+              <p>
+                <%= item.certificate %> | <%= item.year %>
+              </p>
+              <% } %>
+
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h3 style="text-align: center;"><img src="/img/skills.png" alt="" width="30em">Skills</h3>
+      <div class="container text-center">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <% for( item of qualifications[2] ) { %>
+            <div class="col">
+              <div class="p-3">
+                <%= item %>
+              </div>
+            </div>
+            <% } %>
+        </div>
+      </div>
+      <hr>
+      <h3 style="text-align: center;"><img src="/img/tools.png" alt="" width="30em">&nbspTools & Technologies</h3>
+      <div class="container text-center">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <% for( item of qualifications[3] ) { %>
+            <div class="col">
+              <div class="p-3">
+                <%= item %>
+              </div>
+            </div>
+            <% } %>
+        </div>
+      </div>
+
+
+
+      <hr>
+      <h3 style="text-align: center;"><i class="bi bi-star-fill">&nbsp&nbsp</i>Achievements & Recognitions</h3>
+      <div class="container overflow-hidden text-center">
+        <div class="row g-2">
+          <% for (item of qualifications[4]) { %>
+            <div class="col-sm-3">
+              <div class="d-flex justify-content-center">
+                <div class="card" style="width: 15em;">
+                  <h5 class="card-header">
+                    <%= item.feature %>
+                  </h5>
+                  <div class="card-body">
+                    <p class="card-text">
+                      <%= item.summary %>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% } %>
+        </div>
+      </div>
+
+<%- include('./includes/end.ejs') %>

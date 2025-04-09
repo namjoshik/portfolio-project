@@ -1,0 +1,29 @@
+<%- include('./includes/head.ejs') %>
+<%- include('./includes/nav.ejs') %>
+<%- include('./includes/title.ejs') %>
+
+<div class="container-fluid">
+  
+    <div class="accordion" id="accordionExample">
+        <% for (let job of jobs) { %>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button <%- job.collapse === 'collapseOne' ? '' : 'collapsed' %>" type="button" data-bs-toggle="collapse" data-bs-target="#<%= job.collapse %>" aria-expanded="<%- job.collapse === 'collapseOne' ? 'true' : 'false' %>" aria-controls="<%= job.collapse %>">
+              <img src="<%= job.img %>" alt="<%= job.alt_img_text %>" height="30em">&nbsp&nbsp<strong><%= job.title %></strong>
+            </button>
+          </h2>
+          <div id="<%= job.collapse %>" class="accordion-collapse collapse <%- job.collapse === 'collapseOne' ? 'show' : '' %>" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <% for (let item of job.details) { %>
+                    <li><%= item %></li>
+                <% } %>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <% } %>
+      </div>
+</div>
+
+<%- include('./includes/end.ejs') %>

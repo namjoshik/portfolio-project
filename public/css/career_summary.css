@@ -1,0 +1,23 @@
+.frame {
+  margin: 1% 25% 0 25%;
+  font-family: Cambria;
+}
+
+.inner_frame {
+  text-align: center;
+  display: grid;
+  align-items: center;
+  margin-bottom: -1.5%;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.job_title{
+  text-align: center;
+  font-size: 1em;
+  font-weight: lighter;
+}

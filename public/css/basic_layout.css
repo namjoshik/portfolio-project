@@ -1,0 +1,40 @@
+.intro{
+  border-radius: 50%;
+  border: 1px #c9e6e6 solid;
+  /* position: absolute; */
+  height: 25em;
+  width: 25em;
+  padding: 0.1em;
+  justify-content: center;
+}
+
+#profile_pic{
+  width: 50%;
+  /* border: 5px aqua solid; */
+  border-radius: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  background-color: aliceblue;
+  /* grid-column: span 4; */
+}
+
+p{
+  font-family: Verdana, sans-serif;
+  text-align: justify;
+}
+
+#skills {
+  border-right: 0.75px solid black;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Brush Script MT';
+  /* font-weight: bold; */
+  margin-top: 10%;
+}
+
+body {
+  background-color: #a9b7b7;
+}

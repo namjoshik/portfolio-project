@@ -1,0 +1,27 @@
+@media (max-width: 800px) {
+  .social_media {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: -1px;
+      grid-template-rows: 1px 1px 1px;
+    }
+
+  .fa {
+    /* padding: 20px; */
+    margin-left: 28%;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    /* display: inline-block; */
+    }
+
+  .menu-items {
+      position: relative;
+      width: 100%;
+      top: 1%;
+      margin: 0%;
+      /* padding: 0 5% 0 5%; */
+    }
+}

@@ -1,0 +1,67 @@
+.skills {
+  position: absolute;
+  left: -5%;
+  animation: slideIt 20s linear;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 2em;
+  padding: 0 10% 0 10%;
+}
+
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25em;
+}
+
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li .nav-link-name{
+  color: white;
+}
+
+.ticker-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+.ticker {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+.card {
+  min-width: 200px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+@keyframes scroll {
+  0% {
+      transform: translateX(50%);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
+
+.profile {
+  width: 18rem;
+  /* border-radius: 40%; */
+  height: auto;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}

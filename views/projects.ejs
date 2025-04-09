@@ -1,0 +1,92 @@
+<%- include('./includes/head.ejs') %>
+    <%- include('./includes/nav.ejs') %>
+        <%- include('./includes/title.ejs') %>
+
+            <div class="container text-center">
+                <div class="row g-2">
+                    <% for(project of projects) { %>
+                        <div class="col-lg-4">
+                            <div class="d-flex justify-content-center">
+                                <div class="card" style="width: 20rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                             <%= project.title %>
+                                        </h5>
+                                        <p class="card-text">
+                                           <i><%= project.summary %></i> 
+                                        </p>
+                                        <p>
+                                            <!-- <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#<%= project.id %>" aria-expanded="false"
+                                                aria-controls="<%= project.id %>">
+                                                View Details
+                                            </button>
+                                        <div class="collapse" id="<%= project.id %>">
+                                            <div class="card card-body">
+                                                <ul style="text-align: justify;">
+                                                    <% for(item of project.details) { %>
+                                                    <li>
+                                                        <%= item %>
+                                                    </li>
+                                                    <% } %>
+                                                </ul>
+                                            </div>
+                                        </div> -->
+                                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#<%= project.id %>" aria-controls="<%= project.id %>">
+                                            View Details
+                                          </button>
+                                          
+                                          <div class="offcanvas offcanvas-start" tabindex="-1" id="<%= project.id %>" aria-labelledby="<%= project.id %>Label">
+                                            <div class="offcanvas-header">
+                                              <h5 class="offcanvas-title" id="<%= project.id %>Label"><%= project.title %></h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+                                            <div class="offcanvas-body">
+                                                <div>
+                                                    <div class="card card-body">
+                                                        <ul style="text-align: justify;">
+                                                            <% for(item of project.details) { %>
+                                                            <li>
+                                                                <%= item %>
+                                                            </li>
+                                                            <% } %>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <% } %>
+                </div>
+            </div>
+
+              <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#<%= project.id %>" aria-controls="<%= project.id %>">
+                Button with data-bs-target
+              </button>
+              
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="<%= project.id %>" aria-labelledby="<%= project.id %>Label">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="<%= project.id %>Label">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="collapse" id="<%= project.id %>">
+                        <div class="card card-body">
+                            <ul style="text-align: justify;">
+                                <% for(item of project.details) { %>
+                                <li>
+                                    <%= item %>
+                                </li>
+                                <% } %>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div> -->
+
+
+            <%- include('./includes/end.ejs') %>

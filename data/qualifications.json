@@ -1,0 +1,82 @@
+[
+    [
+        {
+            "degree": "Post Graduate Diploma in IT Management",
+            "college": "Symbiosis Center for Distance Learning Pune, India",
+            "year": "2014 - 2016"
+        },
+        {
+            "degree": "Bachelors of Technology",
+            "college": "Maulana Azad National Institute of Technology Bhopal, India",
+            "year": "2008 - 2012"
+        }
+    ],
+    [
+        {
+            "certificate": "NodeJS Basics",
+            "year": "2025"
+        },
+        {
+            "certificate": "SAFe 5.0 Practitioner",
+            "year": "2022"
+        },
+        {
+            "certificate": "Python Basics",
+            "year": "2020"
+        },
+        {
+            "certificate": "PEGA v7.2 Certified System Architect",
+            "year": "2016"
+        },
+        {
+            "certificate": "ISTQB Foundation Level",
+            "year": "2015"
+        },
+        {
+            "certificate": "ITIL v3",
+            "year": "2015"
+        }
+    ],
+    [
+        "Planning and Coordination",
+        "Project Management",
+        "Budget Management",
+        "Stakeholder Management",
+        "Leadership",
+        "Supplier Management",
+        "People Management",
+        "Process Automation",
+        "SAFe Agilist",
+        "Product Owner"
+    ],
+    [
+        "Microsoft Power Automate",
+        "Microsoft PowerApps",
+        "Microsoft PowerBI",
+        "Microsoft Office",
+        "Azure DevOps",
+        "JIRA",
+        "Confluence",
+        "NodeJS",
+        "Python",
+        "TIBCO BW"
+    ],
+    [
+        {
+            "feature": "100% document error reduction",
+            "summary": "By personally introducing a Microsoft Power Automate-based automation framework for documentation, I ensured ZERO documentation errors"
+        },
+        {
+            "feature": "Vodafone Champion award",
+            "summary": "In January 2019, I was honored to receive the Vodafone Champion award for successfully transitioning the Development for Integration solution for VF UK to _VOIS"
+        },
+        {
+            "feature": "Employee of the Quarter",
+            "summary": "In June 2018, I was recognized for exceptional project management skills and successful efforts in securing new business opportunities for the Organization."
+        },
+        {
+            "feature": "Employee of the Month",
+            "summary": "In February 2016, I was recognized as the Employee of the Month for automating manual tasks using Unix shell scripting which resulted in 0.5 FTE savings for the Organization."
+        }
+    ]
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "Project1",
+        "title": "DevOps Integration | VF-UK | Apr 2019 - Mar 2020",
+        "summary": "Project Management for implementation of DevOps tooling resulting in a 50% reduction in delivery errors, 3.5 FTE savings, and improved customer satisfaction.",
+        "details": [
+            "The project was aimed at moving away from the incumbent manual process by adapting new tools and methodology for code management, testing , deployment and documentation. The project was aimed to improve overall delivery timelines and enhancing customer satisfaction by reducing delivery errors to higher environment by 50%",
+            "Managed E2E implementation of DevOps tools (GIT, Ansible , Jenkins) from Dev to Production environment by working closely with all the stakeholders, providing timelines updates and projections and ensuring closure as per agreed timelines.",
+            "This implementation resulted in 3.5 FTE savings and enhanced working experience for the technical teams adding further to good quality and timely delivery"
+        ]
+    },
+    {
+        "id": "Project2",
+        "title": "Kanban Board Setup | VF-UK | Jan 2019 - Mar 2019",
+        "summary": "Transitioned team to new ways of working, optimizing JIRA usage and migrating data to Azure DevOps. This resulted in 2 FTE savings and improved customer satisfaction.",
+        "details": [
+            "The transition was aimed at breaking down silos of delivery management and making data available to the entire team to ensure ownership and accountability of individual tasks",
+            "Solution design for status workflows and fields in JIRA (and later in Azure DevOps) to capture all relevant information",
+            "Setting up project plan to transition entire team to the new ways of working",
+            "Training development team for optimized usage of JIRA",
+            "Personally migrated all data from JIRA to Azure DevOps ensuring continuity of service and integrity of KPIs",
+            "JIRA implementation resulted in 2 FTE savings for the organization and improved customer satisfaction"
+        ]
+
+    },
+    {
+        "id": "Project3",
+        "title": "Service Transition Service | VF-UK | May 2018 - Oct 2018",
+        "summary": "Project management for service transition from incumbent vendor to VOIS for 50+ FTE. Coordinating with Vodafone UK to ensure a smooth transition.",
+        "details": [
+            "Project management for transition of service from incumbent vendor to _VOIS for 50+ FTE",
+            "Coordinating discussions with vendors to align key resources for the transition process.",
+            "Ensuring that all information is included in the reviews of Vodafone UK’s transition plan.",
+            "Monitoring the closure of transitions in accordance with the established timelines"
+        ]
+    }
+]

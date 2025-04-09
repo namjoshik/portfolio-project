@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .ticker-container {
+            width: 100%;
+            overflow: hidden;
+            background-color: #f8f9fa;
+        }
+        .ticker {
+            display: flex;
+            animation: scroll 20s linear infinite;
+        }
+        .card {
+            min-width: 200px;
+            margin: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 5px;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="ticker-container">
+    <div class="ticker">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+        <div class="card">Card 4</div>
+        <!-- Add more cards as needed -->
+    </div>
+</div>
+
+</body>
+</html>

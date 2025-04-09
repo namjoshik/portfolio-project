@@ -1,0 +1,56 @@
+[
+    {
+        "img" : "/img/du.png",
+        "alt_img_text": "Du Telecom",
+        "title" : "Telecom (EITC) Dubai, U.A.E | Delivery Principle | Jul'23 - Current",
+        "details" : [
+            "Responsible for adherence to Program Timelines by the Supplier for Integration Domain",
+            "Managing the planning and execution of delivery of Integration components for a Greenfield implementation of BSS stack across multiple release(s)",
+            "Working with the respective Tech Product Owners to prioritize feature sets and major stories as required for the product backlogs and sprint backlogs",
+            "Maintains and reports on pre-agreed level of service level agreement and KPIs for Integration solution",
+            "Regular reporting against Program milestones to the Steering committee and other relevant governance bodies",
+            "Managing partner contracts, escalations and processing milestone payments"
+        ],
+        "collapse" : "collapseOne"
+    },
+    {
+        "img" : "/img/VOIS.jpg",
+        "alt_img_text": "VOIS",
+        "title" : "Vodafone Shared Services (VOIS) Pune, India | Delivery Lead | Oct'18 - Jun'23",
+        "details" : [
+            "Managed a Team of 100+ solution designers and developers through entire SDLC",
+            "Accountable for Integration solutions for OSS and BSS systems across UK IT landscape",
+            "Successfully delivered 20+ projects of varying complexities each month across multiple channels and business stacks",
+            "Proved successful working within tight deadlines and fast-paced atmosphere",
+            "Setup automation framework to enable DevOps practices",
+            "Identified innovative and automated approaches to routine tasks, making suggestions that were widely received"
+        ],
+        "collapse" : "collapseTwo"
+    },
+    {
+        "img" : "/img/VOIS.jpg",
+        "alt_img_text": "VOIS",
+        "title" : "Vodafone Shared Services (VOIS) Pune, India | Transformation Associate | Apr'16 - Sep'18",
+        "details" : [
+            "Managed transformation project across multiple vertical",
+            "Setup Target Operating Model for offshore transition of work worth 200+ FTE",
+            "Successfully delivered POCs for Greenfield implementation of PEGA practice",
+            "Engaged in implementing unified testing framework across all Testing practices",
+            "Automated reporting for vertical yearly savings",
+            "Established unified Career Framework for all Shared Services practices"
+        ],
+        "collapse" : "collapseThree"
+    },
+    {
+        "img" : "/img/VOIS.jpg",
+        "alt_img_text": "VOIS",
+        "title" : "Vodafone Shared Services (VOIS) Pune, India | Environment Support Engineer | Mar'14 - Mar'16",
+        "details" : [
+            "Worked as TIBCO BW Admin handling production and non-production environments",
+            "Worked with software development team on reported errors and bugs on newly released software and assisted in deployment of release fixes",
+            "Performed root cause analysis and general troubleshooting",
+            "Automated repetitive task using shell scripting resulting in 0.5 FTE savings"
+        ],
+        "collapse" : "collapseFour"
+    }
+]
